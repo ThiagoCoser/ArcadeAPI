@@ -1,15 +1,16 @@
-# Interface para carregar jogos em um menu de seleção
+# Interface para carregar jogos em um menu de seleção ARCADE
 
-Este projeto foi desenvolvido para utilizar os jogos dos alunos do curso de jogos da Facamp em um arcade, mostrando assim os projetos par ao mundo :)
+Este projeto foi desenvolvido para utilizar os jogos dos alunos do curso de Design Digital da Facamp em um arcade, mostrando assim os projetos dos alunos para o mundo :)
 
-# Uso
+# O que faz?
+O programa procura arquivos .exe dentro de cada uma das pastas contidas na pasta "Jogos", exibindo um arquivo de texto de informações e uma imagem de cada projeto, em um menu de seleção. Ao selecionar o jogo, ele fica em segundo plano, possibilitando sairmos do jogo e voltar ao menu de seleção
 
-- Faça uma build do projeto ou baixe o realease
- - Crie uma pasta chamada "Jogos" na raiz da build
- - Coloque cada jogo em uma pasta separada dentro da pasta "Jogos"
- - Coloque um banner com o nome "icon.png" com 1920 x 1080 pixels, assim como um arquivo de informações do projeto "info.txt" em cada pasta de jogo
+# Como usar
 
- O programa procura arquivos .exe dentro de cada uma destas pastas, e exibe a imagem e o texto do arquivo de cada projeto
+- Faça uma build do projeto ou baixe o release V1.0
+- Crie uma pasta chamada "Jogos" na raiz da build
+- Coloque cada jogo em uma pasta separada dentro da pasta "Jogos"
+- Coloque um banner com o nome "icon.png" com 1920 x 1080 pixels, assim como um arquivo de informações do projeto "info.txt" em cada pasta de jogo
 
 # Comandos
 
