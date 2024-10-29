@@ -20,11 +20,11 @@ O programa procura arquivos .exe dentro de cada uma das pastas contidas na pasta
 
 
 # V1.1
-- Para projetos feitos em Godot, adicionar o script no projeto:
+- Para projetos feitos em Godot, deixar a build em fullscreen e adicionar o script no projeto:
 
-extends Node
 
 ```c
+extends Node
 
 # Método chamado a cada quadro
 func _process(delta):
