@@ -17,3 +17,22 @@ O programa procura arquivos .exe dentro de cada uma das pastas contidas na pasta
 - SETAS - Seleciona o jogo
 - ENTER - Entra no jogo selecionado
 - ESC - Sai do jogo selcionado / Sai do aplicativo
+
+
+# V1.1
+- Para projetos feitos em Godot, adicionar o script no projeto:
+
+extends Node
+
+```c
+
+# Método chamado a cada quadro
+func _process(delta):
+
+	# Verifica se a tecla ESC foi pressionada
+
+	if Input.is_action_pressed("ui_cancel"):
+
+		# Método para sair do jogo
+		get_tree().quit()
+```
